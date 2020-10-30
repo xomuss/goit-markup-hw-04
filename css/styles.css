@@ -58,13 +58,22 @@ margin: 0;
 }
 
 
-.icon-envelop > a::before {
+.icon > .envelop::before {
     display: inline-flex;
     content: "";
     width: 16px;
     height: 12px;
     margin-right: 10px;
     background-image: url(../images/icons/envelope.svg);
+}
+
+.icon > .telephone::before {
+    display: inline-flex;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../images/icons/smartphone.svg);
 }
 
 .site-info .item + .item{

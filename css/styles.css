@@ -65,6 +65,7 @@ margin: 0;
     height: 12px;
     margin-right: 10px;
     background-image: url(../images/icons/envelope.svg);
+    align-items: center;
 }
 
 .icon > .telephone::before {
@@ -325,6 +326,16 @@ margin-bottom: 0;
     margin-right: 30px;
 }
 
+/* clients */
+
+.clients {
+    display: flex;
+}
+
+.clients .item:not(:last-child) {
+    margin-right: 30px;
+}
+
 /* footer */
 
 .footer {
@@ -472,6 +483,8 @@ color: var(--secondary-text-colr);
 .portfolio.container h1 {
     display: none;
 }
+
+
 
 /* цвет страницы #FFFFFF */
 /* основной цвет текста 212121 */

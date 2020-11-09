@@ -109,8 +109,7 @@ margin: 0;
     color: var(--activ-text-color);
 }
 
-.site-info a:hover, 
-.site-info a:focus {
+.site-info .item:hover{
     color: var(--activ-text-color);
 }
 

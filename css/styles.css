@@ -109,9 +109,16 @@ margin: 0;
     color: var(--activ-text-color);
 }
 
-.site-info .item:hover{
+.site-info  .item:hover svg,
+.site-info  .item:focus svg {
+    fill: var(--activ-text-color);
+}
+
+.site-info  .item:hover a,
+.site-info  .item:focus a {
     color: var(--activ-text-color);
 }
+
 
 .site-nav a:hover, 
 .site-nav a:focus {

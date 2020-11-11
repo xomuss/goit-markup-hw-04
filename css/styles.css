@@ -311,6 +311,7 @@ margin-bottom: 0;
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    height: 428px;
 }
 
 .team .foto {
@@ -425,6 +426,9 @@ margin-bottom: 0;
 
 .footer {
     background-color: var(--third-bg-color);
+    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .header-link {
@@ -436,8 +440,7 @@ margin-bottom: 0;
 }
 
 .footer     .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+
     display: flex;
 }
 
